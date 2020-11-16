@@ -4,12 +4,14 @@
 #include <vector>
 
 #include "jmath.h"
-#include "langldr.h"
+#include "en_lang.h"
 
 using namespace std;
 
 int main()
 {
+	changelang(loc);
+
 	bool condition = true;
 
 	while (condition == true)
@@ -34,7 +36,7 @@ int main()
 		}
 		else
 		{
-			cout << "	? Invalid command" << endl;
+			printlang(LANG_ERROR, MSG00_INVALIDCOM);
 			goto beg;
 		}
 		
@@ -74,37 +76,88 @@ int main()
 			cout << "	" << root << "." << endl;
 		}
 
-		//MEM related
-		//add mem
-		else if (varExists(var, command[0]) && isNumber(command[1]) && command.size() == 2) //error here, vector out of range
+		else if (command[0] == "sin")
 		{
-			vector<string>::iterator it = find(var.begin(), var.end(), command[0]);
-
-			int index = distance(var.begin(), it);
-
-			addMem(command, index);
-			cout << "	" << command[0] << " = " << command[1] << endl;
-			cout << "	OK." << endl;
+			double sine = sin(command);
+			cout << "	" << sine << "." << endl;
 		}
 
-		//list mem
-		else if (command[0] == "mem" && command[1] == "list" && command.size() == 2)
+		else if (command[0] == "cos")
 		{
-			int i = 0;
-			for (vector<string>::const_iterator it = var.begin(); it != var.end(); it++)
+			double cossine = cos(command);
+			cout << "	" << cossine << "." << endl;
+		}
+
+		else if (command[0] == "tan")
+		{
+			double tangent = tan(command);
+			cout << "	" << tangent << "." << endl;
+		}
+
+		else if (command[0] == "asin")
+		{
+			double asine = asin(command);
+			cout << "	" << asine << "." << endl;
+		}
+
+		else if (command[0] == "acos")
+		{
+			double acossine = acos(command);
+			cout << "	" << acossine << "." << endl;
+		}
+
+		else if (command[0] == "atan")
+		{
+			double atangent = atan(command);
+			cout << "	" << atangent << "." << endl;
+		}
+
+		//MEM related
+		//add mem
+		else if (varExists(var, command[0]) && command.size() == 2)
+		{
+			if (isNumber(command[1]))
 			{
-				cout << "	" << *it << " = ";
-				cout << mem[i] << endl;
-				i++;
+				vector<string>::iterator it = find(var.begin(), var.end(), command[0]);
+
+				int index = distance(var.begin(), it);
+
+				addMem(command, index);
+				cout << "	" << command[0] << " = " << command[1] << endl;
+				printlang(LANG_OK);
+			}
+			else
+			{
+				printlang(LANG_ERROR, MSG01_NUMCHECKER);
+				goto beg;
 			}
 		}
 
-		//clear mem
-		else if (command[0] == "mem" && command[1] == "clear" && command.size() == 2)
+		//mem functions
+		else if (command[0] == "mem" && command.size() == 2)
 		{
-			clearMem();
-			cout << "	Memory cleared." << endl;
+			if (command[1] == "list")
+			{
+				int i = 0;
+				for (vector<string>::const_iterator it = var.begin(); it != var.end(); it++)
+				{
+					cout << "	" << *it << " = ";
+					cout << mem[i] << endl;
+					i++;
+				}
+			}
+			else if (command[1] == "clear")
+			{
+				clearMem();
+				printlang(LANG_TABBED, MSG03_MEMCLEARED);
+			}
+			else
+			{
+				printlang(LANG_TABBED, MSG02_BADMEMFUNC);
+				goto beg;
+			}
 		}
+
 
 		else if (command[0] == "cls")
 		{
@@ -120,13 +173,21 @@ int main()
 			condition = false;
 		}
 
+		else if (command[0] == "help")
+		{
+			if (command.size() == 1)
+			{
+				printdic();
+			}
+		}
+
 		else
 		{
-			cout << "	? Invalid command" << endl;
+			printlang(LANG_ERROR, MSG00_INVALIDCOM);
 			goto beg;
 		}
 		
 	}
 	
-	cout << "Application ended successfully." << endl;
+	printlang(LANG_NORMAL, MSG04_GOODBYEAPP);
 }
