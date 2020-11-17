@@ -1,6 +1,7 @@
 #include <vector>
 #include <stdlib.h>
 #include <math.h>
+#include <algorithm>
 
 #include "en_lang.h"
 
@@ -14,36 +15,20 @@ vector<string> cvar = { "pi" };
 double mem[16] = { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 };
 double cmem[] = {PI};
 
-
-bool isNumber(string& string) 
+bool isNumber(string src)
 {
-	string::const_iterator it = string.begin();
-	bool decimalPoint = false;
-	int minSize = 0;
-	if (string.size() > 0 && (string[0] == '-' || string[0] == '+')) 
-	{
-		it++;
-		minSize++;
-	}
-	while (it != string.end()) 
-	{
-		if (*it == '.') {
-			if (!decimalPoint)
-			{
-				decimalPoint = true;
-			}
-			else
-			{
-				break;
-			}
-		}
-		else if (!isdigit(*it) && ((*it != 'f') || it + 1 != string.end() || !decimalPoint)) 
-		{
-			break;
-		}
-		++it;
-	}
-	return string.size() > minSize && it == string.end();
+    stringstream ss;
+    ss << src;
+    double d = 0;
+    ss >> d; 
+    if (ss)
+    {
+       return true;
+    }
+    else
+    {
+       return false;
+    }
 }
 
 //MEM
