@@ -1,7 +1,7 @@
 # jcalc
 A cross-platform CLI calculator that allows one to make calculations in a hurry! 
 
-### Platforms currently supported:
+### Platforms currently supported
 - Windows (x86)
 - DOS, and other 32-bit operating systems from the same family, such as OS/2 (x86)
 - Linux (x86-64) (ARM IS ON DEVELOPMENT)
@@ -12,7 +12,7 @@ A cross-platform CLI calculator that allows one to make calculations in a hurry!
 **Command file also included.** Check that out too!  
 
 
-### Locations
+### Structure of this repository
 - src/ - Location of the source code.
 - no-unicode/ - Location of the source code for DOS or other platforms where Unicode is not available.
 - wiki/ - Location of the wiki for the program.
