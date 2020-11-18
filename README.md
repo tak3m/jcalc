@@ -5,7 +5,8 @@ A cross-platform CLI calculator that allows one to make calculations in a hurry!
 
 
 ### Check out the wiki
-**Look for "quickstart.md" on the wiki folder!** It has all the basic information on how to use the program.
+**Look for "quickstart.md" on the wiki folder!** It has all the basic information on how to use the program.  
+**Command file also included.** Check that out too!  
 
 
 ### Locations
