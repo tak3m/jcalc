@@ -26,16 +26,16 @@ You would be absolutely right. This is something that I would call "fast calcula
 - mul [x] [y] -> It's similar to 1 * 1, and you can always keep adding numbers (mul 1 1 1 1 1 = 1 * 1 * 1 * 1 * 1 = 1)
 - div [x] [y] -> It's similar to 1 / 1, and as always, you can keep adding more numbers...
 
-*ADD for Add
-SUB for Subtract
-MUL for Multiply
-DIV for Divide*
+*ADD for Add\
+SUB for Subtract\
+MUL for Multiply\
+DIV for Divide\*
 
 - pow [x] [y] -> It's similar to 3 ^ 2, but sadly it has fixed parameters. This means that it accepts only two parameters. Otherwise, the program will tell you that something's off.
 - rt [x] [y] -> The root of a number. It's equal to x ^ (1 / y). If you wanted to know what's the square root of 9, you would type in "rt 9 2".
 
-*POW for power
-RT for root*
+*POW for power\
+RT for root\*
 
 - sin [x] [y] -> The sine of an angle. By default, it accepts only degrees (e.g. "sin 30"). If you wanted radians or gradians, you would have to type "sin rad 3.14159" or "sin gra 10".
 - cos [x] [y] -> Same as the other one, but with cossine.
@@ -59,5 +59,5 @@ Also easy! Just type in "mem list".
 
 Don't panic. Type in "mem clear".
 
-**You're all set. Many more will come. For every version, check the other informative markdown files for every version that gets released. It will get even better from here.**
-**Calculate efficiently.**
+**You're all set. Many more will come. For every version, check the other informative markdown files for every version that gets released. It will get even better from here.**\
+**Calculate efficiently.**\
