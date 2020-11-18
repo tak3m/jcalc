@@ -8,7 +8,5 @@ Look for "quickstart.html" on wiki/
 
 ### Locations
 src/ - Location of the source code.
-
 no-unicode/ - Location of the source code for DOS or other platforms where Unicode is not available.
-
 wiki/ - Location of the wiki for the program.
