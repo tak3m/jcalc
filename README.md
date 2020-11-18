@@ -19,4 +19,4 @@ A cross-platform CLI calculator that allows one to make calculations in a hurry!
 ## Structure of this repository
 - src/ - Location of the source code.
 - no-unicode/ - Location of the source code for DOS or other platforms where Unicode is not available.
-- wiki/ - Location of the wiki for the program.
+- wiki/ - Location of the wiki for the program. All the information you need!
