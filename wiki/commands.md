@@ -32,6 +32,6 @@
 
 | Command    | What do you mean by that?                                                  |
 |------------|----------------------------------------------------------------------------|
-| var(x) [x] | Change variable value. var0 to var15 are available. X is the value to set. |
+| var(x) [y] | Change variable value. var0 to var15 are available. Y is the value to set. |
 | mem list   | List all variables in memory                                               |
 | mem clear  | Clears all variables in memory, changing them to 0.                        |
