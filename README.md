@@ -1,5 +1,6 @@
 # jcalc
-A cross-platform CLI calculator that allows one to make calculations in a hurry!   
+A cross-platform CLI calculator that allows one to make calculations in a hurry!  
+  
 **CURRENT VERSION:** v1.0a
 
 ### Platforms currently supported
