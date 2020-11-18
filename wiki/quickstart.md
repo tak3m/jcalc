@@ -17,7 +17,7 @@ A message pops in. It says "JCALC>", and it's waiting for you to type in...
 
 *Wait, what? All that trouble for a simple 1 + 1 operation... That's insane!*
 
-You would be absolutely right. This is something that I would call "fast calculation". You would be taking less time typing these commands than by using the built in calculator. Sometimes it's *quite* stressing. Sometimes it's *very*, *very*, *very* stressing. Hey- not everyone has a numpad, and even those who have one, still don't find it practical enough. So, hold on your horses, and start typing. Every time that you need to calculate something, don't even try to google it. Just use this program. Quick, simple, efficient.
+You would be absolutely right. This is something that I would call "fast calculation". You would be taking less time typing these commands than by using the built in calculator. Sometimes it's *quite* stressing. Sometimes it's *very*, *very*, *very* stressing. Hey- not everyone has a numpad, and even those who have one, still don't find it practical enough. So, hold on your horses, and start typing. Every time that you need to calculate something, don't even try to google it. Just use this program. **Quick, simple, efficient.**
 
 ### Basic commands
 
@@ -60,4 +60,4 @@ Also easy! Just type in "mem list".
 Don't panic. Type in "mem clear".
 
 **You're all set. Many more will come. For every version, check the other informative markdown files for every version that gets released. It will get even better from here.**\
-**Calculate efficiently.\**
+**Calculate efficiently.**\
