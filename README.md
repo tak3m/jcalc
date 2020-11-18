@@ -7,7 +7,8 @@ A cross-platform CLI calculator that allows one to make calculations in a hurry!
 ## Platforms currently supported
 - Windows (x86)
 - DOS, and other 32-bit operating systems from the same family, such as OS/2 (x86)
-- Linux (x86-64) (ARM IS ON DEVELOPMENT)
+- Linux (x86) and (x86-64)
+- Linux (ARM32) and (ARM64)
 - Mac OS X (x86) (ON DEVELOPMENT)
   
   
