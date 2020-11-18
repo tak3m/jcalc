@@ -9,6 +9,8 @@ A cross-platform CLI calculator that allows one to make calculations in a hurry!
 - DOS, and other 32-bit operating systems from the same family, such as OS/2 (x86)
 - Linux (x86) and (x86-64)
 - Linux (ARM32) and (ARM64)
+- Linux (PowerPC 32-bit)
+- Linux (SPARC v9 64-bit)
 - Mac OS X (x86) (ON DEVELOPMENT)
   
   
