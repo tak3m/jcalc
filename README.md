@@ -1,8 +1,10 @@
 # jcalc
 A cross-platform CLI calculator that allows one to make calculations in a hurry! 
 
-
-
+### Platforms currently supported:
+- Windows
+- DOS, and other 32-bit operating systems from the same family, such as OS/2
+- Linux
 
 ### Check out the wiki
 **Look for "quickstart.md" on the wiki folder!** It has all the basic information on how to use the program.  
