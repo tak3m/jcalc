@@ -4,6 +4,7 @@ A cross-platform CLI calculator that allows one to make calculations in a hurry!
 **CURRENT VERSION:** *v1.0a*
   
   
+![Alt Text](prompt.gif)
 ## Platforms currently supported
 - Windows (x86)
 - DOS, and other 32-bit operating systems from the same family, such as OS/2 (x86)
