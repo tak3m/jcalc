@@ -1,7 +1,7 @@
 # Compiling
 
 ### Default compilers
-On a modern system (Windows or \*NIX): Every compiler that has C++11 support. More than one language is supported cross-platform thanks to Unicode and wstrings.
+On a modern system (Windows or \*NIX): Every compiler that has C++11 support. More than one language is supported cross-platform thanks to Unicode and wstrings.  
 On an ancient system (DOS): DJGPP for Linux (C++99) is required. *Remember, no multilanguage support.*  
 
 ### Language & Locale
