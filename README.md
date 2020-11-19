@@ -34,6 +34,7 @@ A cross-platform CLI calculator that allows one to make calculations in a hurry!
       var0 10
       var1 10
       
+      edit
       *enter composite mode*
       [LINE1] mul 0.5 var0
       [LINE2] pow var1 2
