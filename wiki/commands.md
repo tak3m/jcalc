@@ -22,11 +22,11 @@
 | Command      | What do you mean by that?                                  |
 |--------------|------------------------------------------------------------|
 | sin <x> [y]  | Sine. sin(y), x is optional. deg is default. x=DEG,RAD,GRA |
-| cos <x> [y]  | Cossine. cos(y)                                            |
+| cos <x> [y]  | Cosine. cos(y)                                             |
 | tan <x> [y]  | Tangent. tan(y)                                            |
-| asin <x> [y] | Arc sine. asin(y)                                          |
-| acos <x> [y] | Arc cossine. acos(y)                                       |
-| atan <x> [y] | Arc tangent. atan(y)                                       |
+| asin <x> [y] | Arcsine. asin(y)                                           |
+| acos <x> [y] | Arccosine. acos(y)                                         |
+| atan <x> [y] | Arctangent. atan(y)                                        |
 
 ### Memory functions
 
