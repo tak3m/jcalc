@@ -38,9 +38,9 @@ You would be absolutely right. This is something that I would call "fast calcula
 *RT for root*  
   
 - sin [x] [y] -> The sine of an angle. By default, it accepts only degrees (e.g. "sin 30"). If you wanted radians or gradians, you would have to type "sin rad 3.14159" or "sin gra 10".
-- cos [x] [y] -> Same as the other one, but with cossine.
+- cos [x] [y] -> Same as the other one, but with cosine.
 - tan [x] [y] -> Of course it's the same.
-- asin [x] [y] -> Yup. The same. But, with arc sine.
+- asin [x] [y] -> Yup. The same. But, with arcsine.
 - acos [x] [y] -> I don't think I need to repeat myself, alright?
 - atan [x] [y] -> That's right, go on...
 
