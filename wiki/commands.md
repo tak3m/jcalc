@@ -40,6 +40,6 @@
 
 | Command    | What do you mean by that?                                                  |
 |------------|----------------------------------------------------------------------------|
-| cls        | Clears screen.                                                             |
+| cls        | Clears the screen.                                                             |
 
 
