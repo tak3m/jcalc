@@ -5,17 +5,17 @@
 
 | Command     | What do you mean by that?       |
 |-------------|---------------------------------|
-| add [x] [y] | Addition operation. x + y       |
-| sub [x] [y] | Subtraction operation. x - y    |
-| mul [x] [y] | Multiplication operation. x * y |
-| div [x] [y] | Division operation. x / y       |
+| add [x] [y] | Addition                x + y   |
+| sub [x] [y] | Subtraction             x - y   |
+| mul [x] [y] | Multiplication          x * y   |
+| div [x] [y] | Division                x / y   |
 
 ### Powers operations
 
-| Command     | What do you mean by that?   |
-|-------------|-----------------------------|
-| pow [x] [y] | Power operation. x ^ y      |
-| rt [x] [y]  | Root operation. x ^ (1 / y) |
+| Command     | What do you mean by that?       |
+|-------------|---------------------------------|
+| pow [x] [y] | Power                    x ^ y  |
+| rt [x] [y]  | Root                x ^ (1 / y) |
 
 ### Trigonometric functions
 
@@ -40,6 +40,6 @@
 
 | Command    | What do you mean by that?                                                  |
 |------------|----------------------------------------------------------------------------|
-| cls        | Clears the screen.                                                             |
+| cls        | Clears the screen.                                                         |
 
 
