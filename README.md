@@ -29,7 +29,8 @@ A cross-platform CLI calculator that allows one to make calculations in a hurry!
 ## Future plans
 \+ Composition mode - Use the normal operations as a instruction set for the program to run. You would be able to save it and run it later. 
    Example:  
-      *Calculate kinectic energy 1/2 mv^2, knowing the mass is 10kg, and the velocity 10 m/s*
+     
+   *Calculate kinectic energy 1/2 mv^2, knowing the mass is 10kg, and the velocity 10 m/s*  
       
       *predefine the variables, var0 = m, var1 = v*
       var0 10
