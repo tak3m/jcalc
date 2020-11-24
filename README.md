@@ -21,6 +21,7 @@ A cross-platform CLI calculator that allows one to make calculations in a hurry!
   
   
 ## Structure of this repository
+- archive/ - Location of the old and current source code.
 - src/ - Location of the source code.
 - no-unicode/ - Location of the source code for DOS or other platforms where Unicode is not available.
 - wiki/ - Location of the wiki for the program. All the information you need!
