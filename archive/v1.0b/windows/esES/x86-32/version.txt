@@ -1,0 +1,19 @@
+JCALC v1.0b
+
+OS = WINDOWS (x86)
+LANGUAGE = ENGLISH
+
+
+What's new?
+
++ Conversion between number systems
++ More language support
+
+
+Built-in language support:
+
+- English (United States)
+- Japanese
+- Spanish (Spain)
+- French (France)
+- Portuguese (Portugal)
