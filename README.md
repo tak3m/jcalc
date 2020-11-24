@@ -12,7 +12,7 @@ A cross-platform CLI calculator that allows one to make calculations in a hurry!
 - Linux (ARM32) and (ARM64)
 - Linux (PowerPC 32-bit) and (PowerPC 64-bit)
 - Linux (SPARC v9 64-bit)
-- Mac OS X (x86) (ON DEVELOPMENT)
+- Mac OS X (x86) (not yet implemented)
   
   
 ## Check out the wiki
