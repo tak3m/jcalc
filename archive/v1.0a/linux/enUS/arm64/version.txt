@@ -1,0 +1,18 @@
+JCALC v1.0a
+
+OS = LINUX (ARM64)
+LANGUAGE = ENGLISH
+
+
+What's new?
+
++ Basic functions (add, sub, mul, div)
++ Trigonometric functions (sin, cos, tan, asin, acos, atan), with degrees, radians, gradians support
++ Saving fixed name variables into memory
++ Help dialog
++ Clearing screen
+
+
+Built-in language support:
+
+- English (United States)
