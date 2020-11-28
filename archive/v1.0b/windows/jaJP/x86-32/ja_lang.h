@@ -7,7 +7,7 @@
 using namespace std;
 
 wstring version = L"1.0b";
-wstring lang = L"���{��";
+wstring lang = L"日本語";
 
 const char* loc = "ja_JP.UTF-8";
 
@@ -20,42 +20,42 @@ int LANG_WRONGTP = 5;
 
 //Translations
 //responses
-wstring MSG00_INVALIDCOM = L"�Ԉ�����R�}���h";
-wstring MSG01_NUMCHECKER = L"�����݂̂���͂��ĉ�����";
-wstring MSG02_BADMEMFUNC = L"�Ԉ�����������֐�";
-wstring MSG03_MEMCLEARED = L"���������N���A����܂����B";
-wstring MSG04_GOODBYEAPP = L"�A�v���P�[�V�����͐���ɏI�����܂����B";
-wstring MSG05_UNKNOWNTYP = L"�s���ȃ^�C�v";
-wstring MSG06_LACKOFPARA = L"�p�����[�^���s�����Ă��܂�";
-wstring MSG07_NUMTOOLONG = L"�������������܂�";
+wstring MSG00_INVALIDCOM = L"間違ったコマンド";
+wstring MSG01_NUMCHECKER = L"数字のみを入力して下さい";
+wstring MSG02_BADMEMFUNC = L"間違ったメモリ関数";
+wstring MSG03_MEMCLEARED = L"メモリがクリアされました。";
+wstring MSG04_GOODBYEAPP = L"アプリケーションは正常に終了しました。";
+wstring MSG05_UNKNOWNTYP = L"不明なタイプ";
+wstring MSG06_LACKOFPARA = L"パラメータが不足しています";
+wstring MSG07_NUMTOOLONG = L"数字が長すぎます";
 
 //dictionary
-wstring DC000_TITLE00000 = L"�R�}���h���X�g";
-wstring DC000_TITLE00001 = L"��{�I�ȉ��Z";
-wstring DC000_TITLE00002 = L"�O�p�@";
-wstring DC000_TITLE00003 = L"�G��";
+wstring DC000_TITLE00000 = L"コマンドリスト";
+wstring DC000_TITLE00001 = L"基本的な演算";
+wstring DC000_TITLE00002 = L"三角法";
+wstring DC000_TITLE00003 = L"雑多";
 
-wstring DC001_ADDOPABOUT = L"add [x1] [x2] [x3] ...  -> �������ϐ���������܂� (1 + 1 + 1)";
-wstring DC001_SUBOPABOUT = L"sub [x1] [x2] [x3] ...  -> �������ϐ��������܂� (1 - 1 - 1)�A ��Ԃ̐����͂�������";
-wstring DC001_MULOPABOUT = L"mul [x1] [x2] [x3] ...  -> �������ϐ��������܂� (1 * 1 * 1)";
-wstring DC001_DIVOPABOUT = L"div [x1] [x2] [x3] ...  -> �������ϐ�������܂� (1 / 1 / 1)";
-wstring DC001_POWOPABOUT = L"pow [x] [y]             -> ��p (x ^ y �� 3 ^ 2 = 9)";
-wstring DC001_RTOPRABOUT = L"rt  [x] [y]             -> �`���� (x ^ (1 / y)";
+wstring DC001_ADDOPABOUT = L"add [x1] [x2] [x3] ...  -> 数字か変数を加えます (1 + 1 + 1)";
+wstring DC001_SUBOPABOUT = L"sub [x1] [x2] [x3] ...  -> 数字か変数を引きます (1 - 1 - 1)、 一番の数字はいつも正数";
+wstring DC001_MULOPABOUT = L"mul [x1] [x2] [x3] ...  -> 数字か変数をかけます (1 * 1 * 1)";
+wstring DC001_DIVOPABOUT = L"div [x1] [x2] [x3] ...  -> 数字か変数を割ります (1 / 1 / 1)";
+wstring DC001_POWOPABOUT = L"pow [x] [y]             -> 乗冪 (x ^ y か 3 ^ 2 = 9)";
+wstring DC001_RTOPRABOUT = L"rt  [x] [y]             -> ～方根 (x ^ (1 / y)";
 
-wstring DC001_SINOPABOUT = L"sin  [�^�C�v] [x]         -> �p�x�̐������v�Z���܂��B �f�t�H���g�̃^�C�v�͓x�ł� (deg)�A [�^�C�v] = deg, rad or gra";
-wstring DC001_COSOPABOUT = L"cos  [�^�C�v] [x]         -> �p�x�̗]�����v�Z���܂��B �f�t�H���g�̃^�C�v�͓x�ł� (deg)�A [�^�C�v] = deg, rad or gra";
-wstring DC001_TANOPABOUT = L"tan  [�^�C�v] [x]         -> �p�x�̐��ڂ��v�Z���܂��B �f�t�H���g�̃^�C�v�͓x�ł� (deg)�A [�^�C�v] = deg, rad or gra";
-wstring DC001_ASINPABOUT = L"asin [�^�C�v] [x]         -> �p�x�̃A�[�N�T�C�����v�Z���܂��B �f�t�H���g�̃^�C�v�͓x�ł� (deg)�A [�^�C�v] = deg, rad or gra";
-wstring DC001_ACOSPABOUT = L"acos [�^�C�v] [x]         -> �p�x�̃A�[�N�R�T�C�����v�Z���܂��B �f�t�H���g�̃^�C�v�͓x�ł� (deg)�A [�^�C�v] = deg, rad or gra";
-wstring DC001_ATANPABOUT = L"atan [�^�C�v] [x]         -> �p�x�̃A�[�N�^���W�F���g���v�Z���܂��B �f�t�H���g�̃^�C�v�͓x�ł� (rad)�A [�^�C�v] = deg, rad or gra";
+wstring DC001_SINOPABOUT = L"sin  [タイプ] [x]         -> 角度の正弦を計算します。 デフォルトのタイプは度です (deg)、 [タイプ] = deg, rad or gra";
+wstring DC001_COSOPABOUT = L"cos  [タイプ] [x]         -> 角度の余弦を計算します。 デフォルトのタイプは度です (deg)、 [タイプ] = deg, rad or gra";
+wstring DC001_TANOPABOUT = L"tan  [タイプ] [x]         -> 角度の正接を計算します。 デフォルトのタイプは度です (deg)、 [タイプ] = deg, rad or gra";
+wstring DC001_ASINPABOUT = L"asin [タイプ] [x]         -> 角度のアークサインを計算します。 デフォルトのタイプは度です (deg)、 [タイプ] = deg, rad or gra";
+wstring DC001_ACOSPABOUT = L"acos [タイプ] [x]         -> 角度のアークコサインを計算します。 デフォルトのタイプは度です (deg)、 [タイプ] = deg, rad or gra";
+wstring DC001_ATANPABOUT = L"atan [タイプ] [x]         -> 角度のアークタンジェントを計算します。 デフォルトのタイプは度です (rad)、 [タイプ] = deg, rad or gra";
 
-wstring DC001_PRCVTTOOLS = L"cvt [type1] [type2] [x] -> �L���@�Ԃŕϊ����܂��B �^�C�v�ɂ́A16�i���̏ꍇ�́uhex�v�A10�i���̏ꍇ�́udec�v�A8�i���̏ꍇ�́uoct�v�A2�i���̏ꍇ�́ubin�v���܂܂�܂��B";
+wstring DC001_PRCVTTOOLS = L"cvt [type1] [type2] [x] -> 記数法間で変換します。 タイプには、16進数の場合は「hex」、10進数の場合は「dec」、8進数の場合は「oct」、2進数の場合は「bin」が含まれます。";
 
 //about
 wstring VER00_AUTHORWHAT = L"by tachikawa20";
-wstring VER01_LICENSEWHO = L"GPL v3���C�Z���X�ɂ���ĕی삳��Ă��܂��B";
-wstring VER02_RELEASEDAT = L"2020�N11��";
-wstring VER03_MOTTOABOUT = L"�ő�̌݊�����ڎw���Ă��܂��B�����B";
+wstring VER01_LICENSEWHO = L"GPL v3ライセンスによって保護されています。";
+wstring VER02_RELEASEDAT = L"2020年11月";
+wstring VER03_MOTTOABOUT = L"最大の互換性を目指しています。いつも。";
 
 void changelang(const char* loc)
 {
