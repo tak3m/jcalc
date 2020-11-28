@@ -33,7 +33,7 @@
 | Command    | What do you mean by that?                                                  |
 |------------|----------------------------------------------------------------------------|
 | var(x) [y] | Change variable value. var0 to var15 are available. Y is the value to set. |
-| mem list   | List all variables in memory                                               |
+| mem list   | List all variables in memory.                                              |
 | mem clear  | Clears all variables in memory, changing them to 0.                        |
 
 ### Miscellaneous
@@ -41,3 +41,13 @@
 | Command    | What do you mean by that?                                                  |
 |------------|----------------------------------------------------------------------------|
 | cls        | Clears the screen.                                                         |
+
+  
+## Since v1.0b
+  
+### Miscellaneous
+
+| Command            | What do you mean by that?                             |
+|--------------------|-------------------------------------------------------|
+| about              | Displays information about the installed application. |
+| cvt [x1] [x2] [y]  | Conversion between numeric systems. x=HEX,DEC,OCT,BIN |
