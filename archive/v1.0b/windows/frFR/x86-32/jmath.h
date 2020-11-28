@@ -3,7 +3,7 @@
 #include <math.h>
 #include <algorithm>
 
-#include "ja_lang.h"
+#include "fr_lang.h"
 
 #define PI 3.14159265
 
